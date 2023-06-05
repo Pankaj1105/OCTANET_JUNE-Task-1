@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+  width: 100vw;
+  height: 80px;
+  background-color: hsl(196, 70%, 59%);
+}
+
+.top {
+  display: flex;
+  color: white;
+}
+
+.leftLogo img {
+  width: 120px;
+  height: 50px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.leftLogo {
+  display: flex;
+  /* vertically center */
+  align-items: center;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+.rightContent ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.rightContent ul {
+  display: flex;
+  margin-right: 50px;
+}
+
+.rightContent {
+  /* aligns the left content to the right */
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* This class give space in both sides */
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Section 1 */
+.sectionOne {
+  display: flex;
+  margin-top: 70px;
+}
+
+.info .uperp {
+  color: red;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.info .middleh2 {
+  font-family: sans-serif;
+  font-size: 8em;
+  margin-top: 15px;
+  color: #0d2860;
+}
+
+.info .lowerp {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.rocket {
+  margin-left: auto;
+  margin-right: 200px;
+}
+/* About style */
+
+.aboutSection {
+  display: flex;
+  margin-top: 80px;
+}
+
+.aboutSection .cardLeft {
+  width: 200px;
+  height: 250px;
+  background-color: hsl(196, 70%, 59%);
+  padding: 40px;
+}
+
+.aboutSection .cardLeft {
+  border-radius: 10px;
+}
+
+.aboutSection .cardLeft h2 {
+  color: #0d2860;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.aboutSection .cardLeft p span {
+  color: white;
+}
+
+.aboutSection .aboutRight {
+  margin-left: auto;
+}
+
+.aboutSection .aboutRight h2 {
+  color: #0d2860;
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+.aboutSection .aboutRight p {
+  font-size: 1em;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+  margin-right: 100px;
+}
+
+.aboutSection .aboutRight button {
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  font-family: sans-serif;
+  width: 100px;
+  height: 25px;
+}
+
+/* Tutors syling */
+
+.tutors {
+  display: flex;
+  margin-top: 50px;
+}
+
+.tutors h1 {
+  color: #0d2860;
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+.classTutorsPic {
+  margin-left: auto;
+  margin-right: 600px;
+}
+
+.classTutorsPic img {
+  width: 250px;
+  height: 250px;
+}
+
+.classTutorsPic h2 {
+  color: hsl(196, 70%, 59%);
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.classTutorsPic p {
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* venue styling  */
+.venue {
+  display: flex;
+  margin-top: 150px;
+}
+
+.venue img {
+  border-radius: 10px;
+  width: 650px;
+  height: 300px;
+}
+
+.venue .venueRight {
+  margin-left: auto;
+  margin-left: 300px;
+}
+
+.venue .venueRight h2 {
+  color: #0d2860;
+  font-size: 4em;
+  font-family: sans-serif;
+}
+
+.venue .venueRight p {
+  font-size: 1em;
+  font-family: sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.venue .venueRight .red {
+  color: red;
+}
+
+/* footer styling */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Assuming you are using Font Awesome for social media icons */
+
+@media only screen and (max-width: 548px) {
+  /* Header section responsiveness */
+  .leftLogo {
+    flex: 1;
+  }
+
+  .rightContent ul li {
+    display: none;
+  }
+}
